@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2048game/2048game.srcs/sources_1/new/random.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module random
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2048game/2048game.srcs/sources_1/new/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2048game/2048game.srcs/sources_1/new/shave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shake
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2048game/2048game.srcs/sources_1/new/seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2048game/2048game.srcs/sources_1/new/move.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module move
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2048game/2048game.srcs/sources_1/new/clkdiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkdiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2048game/2048game.srcs/sources_1/new/gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2048game/2048game.srcs/sources_1/new/top_game.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module game
+ERROR: [VRFC 10-91] b1 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:157]
+ERROR: [VRFC 10-91] b4 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:158]
+ERROR: [VRFC 10-91] b1 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:160]
+ERROR: [VRFC 10-91] b2 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:161]
+ERROR: [VRFC 10-91] b3 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:162]
+ERROR: [VRFC 10-91] b4 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:163]
+ERROR: [VRFC 10-91] b1 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:165]
+ERROR: [VRFC 10-91] b1 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:167]
+ERROR: [VRFC 10-91] b2 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:168]
+ERROR: [VRFC 10-91] b3 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:169]
+ERROR: [VRFC 10-91] b4 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:170]
+ERROR: [VRFC 10-91] b1 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:172]
+ERROR: [VRFC 10-91] b4 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:173]
+ERROR: [VRFC 10-91] b1 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:175]
+ERROR: [VRFC 10-91] b2 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:176]
+ERROR: [VRFC 10-91] b3 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:177]
+ERROR: [VRFC 10-91] b4 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:178]
+ERROR: [VRFC 10-91] b1 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:180]
+ERROR: [VRFC 10-91] b1 is not declared [D:/2048game/2048game.srcs/sources_1/new/top_game.v:182]
+INFO: [#UNDEF] Sorry, too many errors..

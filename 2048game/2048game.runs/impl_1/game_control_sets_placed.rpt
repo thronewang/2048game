@@ -1,0 +1,76 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
+| Date         : Sat Jun 17 21:27:33 2017
+| Host         : DESKTOP-U9SQQEI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file game_control_sets_placed.rpt
+| Design       : game
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    23 |
+| Minimum Number of register sites lost to control set restrictions |    80 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |             292 |           78 |
+| No           | Yes                   | No                     |              16 |            9 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             128 |           72 |
+| Yes          | Yes                   | No                     |              42 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+------------------------+-----------------------------+------------------+----------------+
+|         Clock Signal         |      Enable Signal     |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++------------------------------+------------------------+-----------------------------+------------------+----------------+
+|  shake_3/dout_reg_i_1_n_0    |                        | shake_3/dout_reg_i_2_n_0    |                1 |              1 |
+|  shake_2/dout_reg_i_1__0_n_0 |                        | shake_2/dout_reg_i_2__0_n_0 |                1 |              1 |
+|  shake_1/dout_reg_i_1__1_n_0 |                        | shake_1/dout_reg_i_2__1_n_0 |                1 |              1 |
+|  shake_0/dout_reg_i_1__2_n_0 |                        | shake_0/dout_reg_i_2__2_n_0 |                1 |              1 |
+|  clk_vga_BUFG                |                        | rst_IBUF                    |                1 |              1 |
+|  clk_vga_BUFG                |                        |                             |                2 |              2 |
+|  clk_game_BUFG               | shake_1/s3_reg[0]_0[0] | rst_IBUF                    |                2 |              4 |
+|  clk_game_BUFG               | shake_1/s15_reg[0][0]  | rst_IBUF                    |                3 |              4 |
+|  clk_game_BUFG               | shake_1/s12_reg[0][0]  | rst_IBUF                    |                4 |              4 |
+|  clk_game_BUFG               | shake_1/s0_reg[0][0]   | rst_IBUF                    |                3 |              4 |
+|  clk_game_BUFG               | shake_1/s2_reg[0][0]   | rst_IBUF                    |                6 |              8 |
+|  clk_game_BUFG               | shake_1/s14_reg[0][0]  | rst_IBUF                    |                7 |              8 |
+|  clk_game_BUFG               | shake_1/E[0]           | rst_IBUF                    |                8 |              8 |
+|  clk_game_BUFG               | shake_0/s11_reg[0][0]  | rst_IBUF                    |                8 |              8 |
+|  clk_vga_BUFG                |                        | vga_0/count_h[10]_i_1_n_0   |                4 |             11 |
+|  clk_vga_BUFG                | vga_0/count_h[0]       | vga_0/count_v[10]_i_1_n_0   |                3 |             11 |
+|  clk_vga_BUFG                | vga_0/x[9]_i_2_n_0     | vga_0/x[9]_i_1_n_0          |                4 |             12 |
+|  clk_IBUF_BUFG               |                        | rst_IBUF                    |                4 |             16 |
+|  clk_game_BUFG               | shake_0/E[0]           | rst_IBUF                    |               12 |             16 |
+|  clk_vga_BUFG                | vga_0/y[9]_i_2_n_0     | vga_0/y[9]_i_1_n_0          |                5 |             19 |
+|  clk_game_BUFG               | p15                    | rst_IBUF                    |               19 |             64 |
+|  clk_game_BUFG               |                        | rst_IBUF                    |               35 |            132 |
+|  clk_rand_BUFG               |                        | rst_IBUF                    |               39 |            144 |
++------------------------------+------------------------+-----------------------------+------------------+----------------+
+
+

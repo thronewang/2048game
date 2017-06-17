@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Sat Jun 17 21:27:03 2017
+# Process ID: 53476
+# Current directory: D:/2048game/2048game.runs/impl_1
+# Command line: vivado.exe -log game.vdi -applog -messageDb vivado.pb -mode batch -source game.tcl -notrace
+# Log file: D:/2048game/2048game.runs/impl_1/game.vdi
+# Journal file: D:/2048game/2048game.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source game.tcl -notrace
