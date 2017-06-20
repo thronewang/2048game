@@ -1,8 +1,8 @@
 module clkdiv(rst,clk,clk_game,clk_rand,clk_vga);
 
-	reg [15:0] counter;
 	output wire clk_game,clk_rand,clk_vga;
 	input wire clk,rst;
+	reg [15:0] counter;
 
 	assign clk_game = counter[10];
 	assign clk_rand = counter[15];

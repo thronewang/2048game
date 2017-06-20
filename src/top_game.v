@@ -30,7 +30,7 @@ module game(rst,clk,key,Hsync,Vsync,vgaRed,vgaGreen,vgaBlue);
   reg [1:0] state;//00 check input and move, 01 generate random number , 10 check game state, 11 game over win or die
   reg [7:0] step;//how much steps the player takes 
   reg [7:0] score;
-  reg [1:0] status;//? `b1 continue, 1 dead, 2 win
+  reg [1:0] status;//? 0 continue, 1 dead, 2 win
   clkdiv clkdiv1(rst,clk,clk_game,clk_rand,clk_vga);
   
   shake shake_3(rst,clk_game,key[3],keyin[3]);
